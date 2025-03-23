@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar } from './Navbar';
 import './Gallery.css';
 import PhotoAlbum from "react-photo-album";
+import "react-photo-album/rows.css"
 import { Divider } from './Divider';
 // documentation: https://react-photo-album.com
 
@@ -84,6 +85,7 @@ export const Gallery = () => {
   return (
     <>
       <Navbar />
+      <div style={{maxWidth: 'screen'}}>
       <div className='paragraph'>
         {/* <h1 className='text-page-heading'>Visual design</h1> */}
         <p className="text-page-intro">As a developer with a background in design, I understand the importance of user experience and visual design. <br></br><br></br>
@@ -94,7 +96,7 @@ export const Gallery = () => {
 
       <div className="fp-gallery">
       <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/ellieSite_rlswpi.jpg' alt='EllieArtSite' className='ellieArtHomepage'/>
-        <PhotoAlbum  layout="rows" photos={ellieArtPhotos} />;
+        <PhotoAlbum  layout="rows" photos={ellieArtPhotos}  />;
       </div>
 
       <Divider title="DANDY" description="An app which suggests activities to do during lockdown" />
@@ -141,6 +143,7 @@ export const Gallery = () => {
 
       <div className='backToTop'>
         <a href="/visual-design" className='toTopText'>Back to top</a>
+      </div>
       </div>
     </>
 

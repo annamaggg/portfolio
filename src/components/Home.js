@@ -1,6 +1,6 @@
 import React from 'react'
 import Sketch from 'react-p5';
-// import { Navbar } from './Navbar';
+import { Navbar } from './Navbar';
 import './Home.css';
 // import ProfilePic from '../src/logo.svg';
 
@@ -50,7 +50,7 @@ export const Home = () => {
   return (
     <>
     <div className='outer'>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className='parent' style={{ height: "100vh" }}>
 
         <div className='child'>
