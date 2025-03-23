@@ -61,9 +61,9 @@ export const Home = () => {
           <p className='description'>A portfolio of software development and visual design.</p>
         </div>
         <div className='child2'>
-        <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/Screenshot_2025-03-23_at_21.36.13_elal6h.jpg' alt='neighbourcare' style={{ width: "100%" }}/>
+        {/* <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/Screenshot_2025-03-23_at_21.36.13_elal6h.jpg' alt='neighbourcare' style={{ width: "100%" }}/> */}
 
-          {/* <Sketch setup={setup} draw={draw} /> */}
+          <Sketch setup={setup} draw={draw} />
         </div>
       </div>
     </div>
