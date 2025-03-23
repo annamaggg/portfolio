@@ -59,7 +59,7 @@ export const Home = () => {
           <p className='description'>A portfolio of software development and visual design.</p>
         </div>
         <div className='child2'>
-          <Sketch setup={setup} draw={draw} />
+          {/* <Sketch setup={setup} draw={draw} /> */}
         </div>
       </div>
     </div>
