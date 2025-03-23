@@ -1,17 +1,6 @@
 import React from 'react';
 import { Navbar } from './Navbar';
 import './Software.css';
-import BurnBook from '../content/BurnBook.png';
-import JapaneseRPG from '../content/rpg.png';
-import FMPshot from '../content/FMP.png';
-import neighbourcare from '../content/neighbourcare.png';
-import studioProj from '../content/studioProj.png';
-import bankAccount from '../content/bankAccount.png';
-import dinoRescue from '../content/dinoRescue.png';
-import spaceX from '../content/spaceXLander.png';
-import makersbnb from '../content/makersbnb.png';
-import chitter from '../content/chitter.png';
-import myva from '../content/myV&A.png';
 
 export const Software = () => {
   return (
@@ -32,7 +21,7 @@ export const Software = () => {
           <a href='https://github.com/annamaggg/japanese-learning-RPG' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
         <div className='image'>
-          <img src={JapaneseRPG} alt='JapaneseRPG' className='imageimg'/>
+          <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/rpg_lcpstc.jpg' alt='JapaneseRPG' className='imageimg'/>
         </div>
       </div>
 
@@ -47,7 +36,7 @@ export const Software = () => {
           <a href='https://github.com/annamaggg/VAM_API_display' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
         <div className='image'>
-          <img src={myva} alt='myva' className='imageimg'/>
+          <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/myV_A_zi1ajs.jpg' alt='myva' className='imageimg'/>
         </div>
       </div>
 
@@ -62,7 +51,7 @@ export const Software = () => {
           <a href='https://github.com/annamaggg/acebook-fire' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
         <div className='image'>
-          <img src={BurnBook} alt='Burnbook' className='imageimg'/>
+          <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/BurnBook_phffqb.jpg' alt='Burnbook' className='imageimg'/>
         </div>
       </div>
 
@@ -77,7 +66,7 @@ export const Software = () => {
           <a href='https://github.com/annamaggg/makers_bnb' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
         <div className='image'>
-          <img src={makersbnb} alt='makersbnb' className='imageimg'/>
+          <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/makersbnb_yfrsky.jpg' alt='makersbnb' className='imageimg'/>
         </div>
       </div>
 
@@ -91,7 +80,7 @@ export const Software = () => {
           <a href='https://github.com/annamaggg/chitter_challenge' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
         <div className='image'>
-          <img src={chitter} alt='chitter' className='imageimg'/>
+          <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/chitter_gqfolx.jpg' alt='chitter' className='imageimg'/>
         </div>
       </div>
 
@@ -104,7 +93,7 @@ export const Software = () => {
           <a href='https://github.com/annamaggg/bank_account' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
         <div className='image'>
-          <img src={bankAccount} alt='bankAccount' className='imageimg'/>
+          <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/bankAccount_gvj3dw.jpg' alt='bankAccount' className='imageimg'/>
         </div>
       </div>
 
@@ -119,7 +108,7 @@ export const Software = () => {
             <a href='https://youtu.be/L_S-pZcmzA8' target="blank" className='aa'><p className='textButton'>View game trailer</p></a>
             </div>
         <div className='image'>
-          <img src={FMPshot} alt='FMPshot' className='imageimg'/>
+          <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/FMP_r5hox5.jpg' alt='FMPshot' className='imageimg'/>
         </div>
       </div>
 
@@ -134,7 +123,7 @@ export const Software = () => {
           <a href='https://openprocessing.org/sketch/896416' target="blank" className='aa'><p className='textButton'>View a script</p></a>
         </div>
         <div className='image'>
-          <img src={studioProj} alt='studioProj' className='imageimg'/>
+          <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/studioProj_p8shdu.jpg' alt='studioProj' className='imageimg'/>
         </div>
       </div>
 
@@ -148,7 +137,7 @@ export const Software = () => {
           <a href='https://openprocessing.org/sketch/715040' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
         <div className='image'>
-          <img src={dinoRescue} alt='dinoRescue' className='imageimg'/>
+          <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/dinoRescue_cgqu0r.jpg' alt='dinoRescue' className='imageimg'/>
         </div>
       </div>
 
@@ -162,7 +151,7 @@ export const Software = () => {
           <a href='https://openprocessing.org/sketch/683818' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
         <div className='image'>
-          <img src={spaceX} alt='spaceX' className='imageimg'/>
+          <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/spaceXLander_vwc7ve.jpg' alt='spaceX' className='imageimg'/>
         </div>
       </div>
 
@@ -177,7 +166,7 @@ export const Software = () => {
           <a href='https://ewhneighbourcare.org.uk' target="blank" className='aa'><p className='textButton'>View client website</p></a>
         </div>
         <div className='image'>
-          <img src={neighbourcare} alt='neighbourcare' className='imageimg'/>
+          <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/neighbourcare_ecgf91.jpg' alt='neighbourcare' className='imageimg'/>
         </div>
       </div>
       
