@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom';
 import { Home } from './components/Home';
 import { Software } from './components/Software';
+import { Video } from './components/Video';
 import { About } from './components/About';
 import { Gallery } from './components/Gallery';
 
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={< Home />}/>
         <Route path='/software' element={< Software />}/>
+        <Route path='/video' element={< Video />}/>
         <Route path='/gallery' element={< Gallery />}/>
         {/* <Route path='/about' element={< About />}/> */}
       </Routes>

@@ -141,9 +141,9 @@ export const Gallery = () => {
         <PhotoAlbum  layout="rows" photos={albumArtPhotos} />;
       </div>
 
-      <div className='backToTop'>
+      {/* <div className='backToTop'>
         <a href="/visual-design" className='toTopText'>Back to top</a>
-      </div>
+      </div> */}
       </div>
     </>
 

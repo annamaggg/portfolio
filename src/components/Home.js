@@ -51,14 +51,18 @@ export const Home = () => {
     <>
     <div className='outer'>
       <Navbar />
-      <div className='parent' style={{ height: "100vh" }}>
+      <div className='parent' style={{ height: "90vh" }}>
 
-        <div className='child'>
+        <div className='child' style={{ width: "60%" }}>
+          <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/ProfilePic_aeza03.jpg' alt='neighbourcare' className='profilepic'/>
+
           {/* <img src={ProfilePic} className="profilepic" alt='me'></img> */}
           <h1 className='name'>Anna Magnusson</h1>
           <p className='description'>A portfolio of software development and visual design.</p>
         </div>
         <div className='child2'>
+        <img src='https://res.cloudinary.com/dnwbll6u0/image/upload/Screenshot_2025-03-23_at_21.36.13_elal6h.jpg' alt='neighbourcare' style={{ width: "100%" }}/>
+
           {/* <Sketch setup={setup} draw={draw} /> */}
         </div>
       </div>
