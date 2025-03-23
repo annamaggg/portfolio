@@ -1,0 +1,60 @@
+.paragraph {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+
+.text-page-heading {
+  color: rgb(238, 169, 141);
+  /* color: rgb(191, 191, 191); */
+  width: 30%;
+  margin: 0;
+  /* align-self: center; */
+  text-align: center;
+  border-right: solid gray;
+  font-size: 50px;
+}
+
+.text-page-intro {
+  color: rgb(191, 191, 191);
+  width: 60%;
+  margin: 10px 50px;
+  text-align: center;
+}
+
+.fp-gallery {
+  width: 80%;
+  margin: auto;
+}
+
+.ellieArtHomepage {
+  width: 50%;
+  margin: auto;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.backToTop {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+  padding-top: 70px;
+}
+
+.toTopText {
+  margin: auto;
+  display: block;
+  /* color: rgb(238, 169, 141); */
+  color: black;
+  background-color: rgb(82, 82, 82);
+  padding: 3px 25px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.toTopText:hover {
+  background-color: rgb(119, 119, 119);
+  cursor: pointer;
+}
