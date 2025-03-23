@@ -1,0 +1,32 @@
+.paragraph {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.textBody {
+  color: rgb(140,140,140);
+}
+
+.text-page-intro-about {
+  color: rgb(191, 191, 191);
+  width: 60%;
+  margin: 10px 50px;
+  /* text-align: center; */
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
